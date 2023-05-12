@@ -1,21 +1,26 @@
 body {
     font-family: "Roboto", sans-serif;
-    background-color: #E5E5E5;
+    background-color: var(--background-color);
+    color: #434455
 }
 
 :root {
+    --background-color: #FFFFFF;
     --color-nav-titles: #2E2F42;
     --color-text-address: #434455;
     --color-h1-textbutton: #FFFFFF;
     --color-logo-textbutton: #4D5AE5;
-    --color-header-cardsbackground: #ffffff;
+    --color-header-cardsbackground: ##F4F4FD;
     --color-footertext: #F4F4FD;
     --color-buttonbackground: #F4F4FD;
     --color-darkbackground: #2E2F42;
     --color-hoverfocus-elements: #404BBF;
 }
 
-.link,
+.link {
+    text-decoration: none;
+}
+
 .link:hover,
 .link:focus {
     text-decoration: none;
@@ -47,7 +52,7 @@ body {
 }
 
 .logo {
-    font-family: 'Raleway';
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -60,7 +65,7 @@ body {
 }
 
 .studio {
-    font-family: 'Raleway';
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -72,11 +77,7 @@ body {
     color: var(--color-darkbackground);
 }
 
-.link-logo {
-    text-decoration: none;
-}
-
-.header-list {
+.list {
     list-style-type: none;
 }
 
@@ -90,6 +91,7 @@ body {
 
 .header-address {
     text-decoration: none;
+    list-style: normal;
 }
 
 .address-items {
@@ -105,11 +107,11 @@ body {
 /**Main**/
 
 /**Section 1**/
-.section1 {
+.section-one {
     background-color: var(--color-darkbackground);
 }
 
-.section1-h1 {
+.section-one-h-one {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -117,7 +119,7 @@ body {
     color: var(--color-h1-textbutton);
 }
 
-.section1-button {
+.section-one-button {
     font-family: inherit;
     background: var(--color-logo-textbutton);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -132,31 +134,14 @@ body {
     color: var(--color-h1-textbutton);
 }
 
-.section1-button:hover,
-.section1-button:focus {
+.section-one-button:hover,
+.section-one-button:focus {
     background: var(--color-hoverfocus-elements);
 }
 
 /**Section 2**/
 
-.section2 {}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
-.main-list {
-    list-style-type: none;
-}
+.section-two {}
 
 .section-items {
     font-weight: 500;
@@ -174,15 +159,7 @@ body {
     color: var(--color-text-address);
 }
 
-.section2-items {}
-
-.section2-text {}
-
-/**Section 3**/
-
-.section3 {}
-
-.titles-h2 {
+.titles-h-two {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -192,23 +169,32 @@ body {
     color: var(--color-nav-titles);
 }
 
-.section3-photos {}
+.section-two-items {}
+
+.section-two-text {}
+
+/**Section 3**/
+
+.section-three {}
+
+
+.section-three-photos {}
 
 /**Section 4**/
 
-.section4 {}
+.section-four {}
 
-.section4-cardsbackground {
+.section-four-cardsbackground {
     background: var(--color-header-cardsbackground);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
 
-.section4-photos {}
+.section-four-photos {}
 
-.section4-items {}
+.section-four-items {}
 
-.section4-text {}
+.section-four-text {}
 
 /**Footer**/
 
