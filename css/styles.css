@@ -251,7 +251,11 @@ body {
     border: 1px solid #E7E9FC;
 }
 
-.potfolio-photos {}
+.cards-link {
+    text-decoration: none;
+}
+
+.portfolio-photos {}
 
 .portfolio-items {}
 
